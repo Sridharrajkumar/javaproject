@@ -1,0 +1,62 @@
+body
+{
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:black;
+	color:white;
+}
+.productcard
+{
+	margin:45px auto;
+	border:4px solid red;
+	padding:14px;
+	width:350px;
+	text-align:center;
+}
+
+.productimg
+{
+	width:100%;
+	border-radius:14px;
+	border:2px solid red;
+}
+
+.productname {
+  font-weight:bold;
+  font-size: 18px;
+  margin-top: 5px;
+  
+}
+
+.productdesc {
+	font-weight:bold;
+  margin-top:-10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.productCost {
+	font-weight:bold;
+margin-top:-15px;
+  font-size: 16px;
+  color: red;
+}
+.editdelete
+{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.productaddcard
+{
+	 background-color:white;
+	 padding:14px 20px;
+	 border-radius:14px;
+	 color:red;
+}
+
+.productaddcard:hover {
+            background-color: #005c75;
+            color:red;
+        }

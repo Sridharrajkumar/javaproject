@@ -1,0 +1,187 @@
+
+
+*{
+	margin:0;
+	padding:0;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+ body 
+ {
+			  background-color: white;
+			  color: black;
+ }
+			
+body.dark-mode 
+{
+			  background-color: black;
+			  color: white;
+}
+
+.headnav
+{
+	display: flex;
+    justify-content: space-between;
+   	 padding:10px 20px;
+    align-items: center;
+    	 width: 100%; 
+	background:black;
+	 font-size: 18px;
+}
+
+.navlist{
+	display:flex;
+	gap:14px;
+	text-decoration:none
+}
+.list{
+	text-decoration:none;
+	color:black;
+	font-size:19px;
+}
+.navbtn{
+	border:0;
+	background-color:black;
+	color:red;
+	border-radius: 14px;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    text-decoration:none;
+}
+.navbtn:hover
+{
+	 border: 1px solid red; 
+	 color:white
+}
+
+ .fa
+ {
+		  padding: 20px;
+		  font-size: 30px;
+		  width: 50px;
+		  text-align: center;
+		  text-decoration: none;
+		  margin: 5px 2px;
+}
+.fa-facebook
+{
+		  background: #3B5998;
+		  color: white;		
+}
+		
+.fa-instagram 
+{
+		  background: #125688;
+		  color: white;
+}
+.fa-telegram 
+{
+		  background: #00aff0;
+		  color: white;
+}
+
+.contactsection{
+	display:flex;
+	justify-content: space-evenly;
+	margin-top:-60px;
+}
+		
+#contactdetails
+{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 20px;
+ }
+
+   #contactdetails a 
+{
+      color: white;
+}
+
+#feedback-form {
+	  border:1px solid lighrgary ;
+      padding: 20px;
+      border-radius: 10px;
+   }
+   #feedback-form input[type="text"],
+   #feedback-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+   }
+
+   #feedback-form button {
+      background-color: #3B5998;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+   }
+   
+   .testimonal
+   {
+     text-align:center;
+     text-transform:uppercase;
+     font-weight:bold;
+     font-family: "Roboto", sans-serif;
+     position: relative;
+     margin: 50px 0 60px;
+     
+   }
+   .testimonal::after 
+   {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background:red;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+
+.testcaro
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align: center;
+}
+
+.img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.testsize
+{
+	width: 98%;
+	margin-left:1%;
+	background-color:white;
+	color:black;
+}
+
+.img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+
+.testimonialspara
+{
+	margin-top:15px;
+	padding-right:120px;
+    padding-left:120px;
+}
+   
+   

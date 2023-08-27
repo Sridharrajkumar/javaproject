@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+body{
+	background-image:url(https://media.istockphoto.com/id/1382471383/photo/blackboard-or-chalkboard-texture.webp?b=1&s=170667a&w=0&k=20&c=SKnd-f1e-JVtnkoqeETN06S0urcTP0oMdeOhN_fV1Ik=);
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+
+
+.signinform{
+	width:500px;
+	margin:50px auto;
+    border:0;
+    border-radius:14px;
+}
+
+.inputs
+{
+	margin-top:10px;
+	padding:14px;
+}
+
+h1{
+	text-align:center;
+}
+
+input{
+	width: 100%;
+    margin-bottom: 12px;
+    padding: 16px;
+    font-size: 16px;
+    box-sizing: border-box; 
+    border: 1px solid black;
+    border-radius: 16px;
+	
+}
+
+.savebtn{
+	border: none;
+    padding: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    width: 30%;
+    font-size: 16px;
+    margin:10px 35%;
+    cursor:pointer;
+}
